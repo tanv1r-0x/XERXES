@@ -6,27 +6,22 @@ XERXES is a simple Denial-of-Service (DoS) attack tool that targets a specific I
 
 ---
 
-## 🛠️ Compile
-
-To compile the source code:
-
-```bash
-gcc -o xerxes xerxes.c
 
 **🖥️ Usage**
 
 On Linux/Unix/macOS systems:
 
-```bash
+git clone https://github.com/tanv1r-0x/XERXES.git
+
 ./xerxes <IP> <PORT>
 
-Example:
-```bash
+**Example:**
+
 ./xerxes 192.168.1.100 80
 
 **🕵️ Be Anonymous**
-
 It is recommended to use anonymity tools when testing:
+  
   Proxy
   VPN
   OpenVPN
@@ -34,8 +29,10 @@ It is recommended to use anonymity tools when testing:
   proxychains
 
 **⚙️ Requirements**
+    GCC compiler
+    Unix-based OS (Linux/macOS)
+    Root or admin permissions (depending on network settings)
 
-  GCC compiler
-  Unix-based OS (Linux/macOS)
-  Root or admin permissions (depending on network settings)
+
+
 
