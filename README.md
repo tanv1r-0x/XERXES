@@ -1,22 +1,41 @@
-XERXES
+# XERXES
 
-XerXes - Most powerful dos tool bY mR.Thg
+XERXES is a simple Denial-of-Service (DoS) attack tool that targets a specific IP and port. It is intended for educational and research purposes only.
 
-COMPILE
+> ⚠️ **Disclaimer:** This tool is designed for **educational purposes only**. Do not use it on networks or systems without proper authorization. Unauthorized use may be illegal and unethical.
 
+---
+
+## 🛠️ Compile
+
+To compile the source code:
+
+```bash
 gcc -o xerxes xerxes.c
 
-LINUX/UNIX/MAC
+**🖥️ Usage**
 
-./xerxes IP PORT
+On Linux/Unix/macOS systems:
 
-BE ANONYMOUS
-USE PROXY VPN OPENVPN TOR PROXYCHAINS
+```bash
+./xerxes <IP> <PORT>
 
-https://en.wikipedia.org/wiki/The_Jester_%28hacktivist%29
+Example:
+```bash
+./xerxes 192.168.1.100 80
 
-https://twitter.com/th3j35t3r
+**🕵️ Be Anonymous**
 
-http://jesterscourt.cc/
+It is recommended to use anonymity tools when testing:
+  Proxy
+  VPN
+  OpenVPN
+  Tor
+  proxychains
 
-XERXES
+**⚙️ Requirements**
+
+  GCC compiler
+  Unix-based OS (Linux/macOS)
+  Root or admin permissions (depending on network settings)
+
